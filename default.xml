@@ -2,10 +2,12 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
+           fetch="git://codeaurora.org/" />
   <default revision="refs/tags/android-4.0.4_r1.1"
            remote="aosp"
            sync-j="4" />
+  <remote name="android-github"
+           fetch="git://github.com/android/" />           
   <remote  name="embest-tech-github"
            fetch="git://github.com/embest-tech/" />
 
@@ -34,7 +36,8 @@
   <project path="external/alsa-utils" name="android_external_alsa-utils" remote="embest-tech-github" revision="imx_r13.3" />
   <project path="external/bluetooth/bluez" name="android_external_bluez" remote="embest-tech-github" revision="imx_r13.3" />
   <project path="external/chromium" name="android_external_chromium" remote="embest-tech-github" revision="imx_r13.3" />
-  <project path="external/fsck_msdos" name=" external_fsck_msdos" remote="embest-tech-github" revision="master" />
+  <project path="external/icu4c" name="platform_external_icu4c" remote="android-github" revision="refs/tags/android-4.0.4_r1.1" />
+  <project path="external/fsck_msdos" name="external_fsck_msdos" remote="embest-tech-github" revision="master" />
   <project path="external/ppp" name="android_external_ppp" remote="embest-tech-github" revision="imx_r13.3" />
   <project path="external/svox" name="external_svox" remote="embest-tech-github" revision="master" />
   <project path="external/tinyalsa" name="tinyalsa" remote="embest-tech-github" revision="imx_r13.3" />
@@ -124,7 +127,7 @@
   <project path="external/guava" name="platform/external/guava" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
-  <project path="external/icu4c" name="platform/external/icu4c" />
+  <!-- project path="external/icu4c" name="platform/external/icu4c" -->
   <project path="external/iproute2" name="platform/external/iproute2" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
