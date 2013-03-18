@@ -42,6 +42,7 @@
   <project path="external/svox" name="external_svox" remote="embest-tech-github" revision="master" />
   <project path="external/tinyalsa" name="tinyalsa" remote="embest-tech-github" revision="imx_r13.3" />
   <project path="external/webkit" name="android_external_webkit" remote="embest-tech-github" revision="imx_r13.3" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="embest-tech-github" revision="imx_r13.3" />
   <project path="frameworks/base" name="android_frameworks_base" remote="embest-tech-github" revision="imx_r13.3" />
   <project path="frameworks/media/libvideoeditor" name="platform_frameworks_media_libvideoeditor" remote="embest-tech-github" revision="imx_r13.3" />
   <project path="hardware/alsa_sound" name="android_hardware_alsa_sound" remote="embest-tech-github" revision="imx_r13.3" />
