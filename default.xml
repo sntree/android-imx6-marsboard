@@ -24,7 +24,7 @@
   <!-- Freescale additions, open source -->
   <project path="external/linux-lib" name="android_external_linux-lib" remote="embest-tech-github" revision="imx_r13.3" />
   <!-- project path="external/hostapd-0.8.x" name="android_external_hostapd" remote="embest-tech-github" revision="master" / -->
-  <!-- project path="system/dispd" name="android_system_dispd" remote="embest-tech-github" revision="master" / -->
+  <project path="system/dispd" name="android_system_dispd" remote="embest-tech-github" revision="master" />
 
   <!-- Freescale updates to AOSP projects, open source -->
   <project path="build" name="android_build" remote="embest-tech-github" revision="imx_r13.3" >
