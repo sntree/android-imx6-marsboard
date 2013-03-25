@@ -64,7 +64,7 @@
   <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_basic" remote="embest-tech-github" revision="imx_r13.3" />
   <project path="packages/wallpapers/MagicSmoke" name="android_packages_wallpapers_MagicSmoke" remote="embest-tech-github" revision="imx_r13.3" />
   <project path="prebuilt" name="platform_prebuilt" remote="embest-tech-github" revision="master" />
-  <project path="system/core" name="android_system_core" remote="embest-tech-github" revision="imx_r13.3" />
+  <project path="system/core" name="android_system_core" remote="embest-tech-github" revision="embest_imx_r13.3" />
   <project path="system/extras" name="android-system-extras" remote="embest-tech-github" revision="imx_r13.3" />
   <project path="system/netd" name="android_system_netd" remote="embest-tech-github" revision="imx_r13.3" />
   <project path="system/vold" name="android_system_vold" remote="embest-tech-github" revision="imx_r13.3" />
