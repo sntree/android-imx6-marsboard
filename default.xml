@@ -40,7 +40,7 @@
   <project path="external/fsck_msdos" name="external_fsck_msdos" remote="embest-tech-github" revision="master" />
   <project path="external/ppp" name="android_external_ppp" remote="embest-tech-github" revision="imx_r13.3" />
   <project path="external/svox" name="external_svox" remote="embest-tech-github" revision="master" />
-  <project path="external/tinyalsa" name="tinyalsa" remote="embest-tech-github" revision="imx_r13.3" />
+  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="embest-tech-github" revision="imx_r13.3" />
   <project path="external/webkit" name="android_external_webkit" remote="embest-tech-github" revision="imx_r13.3" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="embest-tech-github" revision="imx_r13.3" />
   <project path="frameworks/base" name="android_frameworks_base" remote="embest-tech-github" revision="imx_r13.3" />
